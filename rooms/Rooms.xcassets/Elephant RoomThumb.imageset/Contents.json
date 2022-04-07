@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "copy-of-conference-room-zoom-background-tem-design-template-d17bc2adaa7df6b8c52b91d1029d5429_screen.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

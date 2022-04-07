@@ -11,6 +11,10 @@
 		32F9EF9427FE087A007D56FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9EF9327FE087A007D56FB /* ContentView.swift */; };
 		32F9EF9627FE087C007D56FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F9EF9527FE087C007D56FB /* Assets.xcassets */; };
 		32F9EF9927FE087C007D56FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F9EF9827FE087C007D56FB /* Preview Assets.xcassets */; };
+		32F9EFA027FE0A89007D56FB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9EF9F27FE0A89007D56FB /* Room.swift */; };
+		32F9EFA227FE0F4B007D56FB /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F9EFA127FE0F4B007D56FB /* Rooms.xcassets */; };
+		32F9EFA427FE1948007D56FB /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9EFA327FE1948007D56FB /* RoomDetail.swift */; };
+		32F9EFA627FE3507007D56FB /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9EFA527FE3507007D56FB /* RoomStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		32F9EF9327FE087A007D56FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32F9EF9527FE087C007D56FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F9EF9827FE087C007D56FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32F9EF9F27FE0A89007D56FB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		32F9EFA127FE0F4B007D56FB /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
+		32F9EFA327FE1948007D56FB /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		32F9EFA527FE3507007D56FB /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		32F9EF9027FE087A007D56FB /* rooms */ = {
 			isa = PBXGroup;
 			children = (
+				32F9EFA527FE3507007D56FB /* RoomStore.swift */,
+				32F9EFA127FE0F4B007D56FB /* Rooms.xcassets */,
 				32F9EF9127FE087A007D56FB /* roomsApp.swift */,
 				32F9EF9327FE087A007D56FB /* ContentView.swift */,
+				32F9EFA327FE1948007D56FB /* RoomDetail.swift */,
 				32F9EF9527FE087C007D56FB /* Assets.xcassets */,
 				32F9EF9727FE087C007D56FB /* Preview Content */,
+				32F9EF9F27FE0A89007D56FB /* Room.swift */,
 			);
 			path = rooms;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F9EF9927FE087C007D56FB /* Preview Assets.xcassets in Resources */,
+				32F9EFA227FE0F4B007D56FB /* Rooms.xcassets in Resources */,
 				32F9EF9627FE087C007D56FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F9EFA627FE3507007D56FB /* RoomStore.swift in Sources */,
 				32F9EF9427FE087A007D56FB /* ContentView.swift in Sources */,
 				32F9EF9227FE087A007D56FB /* roomsApp.swift in Sources */,
+				32F9EFA027FE0A89007D56FB /* Room.swift in Sources */,
+				32F9EFA427FE1948007D56FB /* RoomDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
